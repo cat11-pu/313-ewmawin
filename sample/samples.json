@@ -1,0 +1,17 @@
+{
+  "budget": 1,
+  "window": 3,
+  "max_value": 1000000,
+  "not_full_error_code": "E_NOT_FULL",
+  "overfull_error_code": "E_OVERFULL",
+  "value_error_code": "E_BAD_VALUE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "avg": 0, "weight": 0, "trail": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "sample", "value": 10 },
+    { "id": 2, "kind": "sample", "value": 20 },
+    { "id": 3, "kind": "sample", "value": 30 },
+    { "id": 4, "kind": "roll" },
+    { "id": 5, "kind": "sample", "value": 50 }
+  ]
+}
